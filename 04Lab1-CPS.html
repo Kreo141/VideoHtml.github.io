@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .huhu{
+        position: absolute;
+        left: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aqua;
+    }
+    .red{
+        color: rgb(255, 0, 0);
+    }
+    .rick{
+        position: absolute;
+        left: 16%;
+        top: 10%;
+        border: 5px solid cyan;
+        border-radius: 7px;
+    }
+    body{
+        background-color: grey;
+    }
+
+</style>
+<body>
+    <h1 class="huhu">
+        Please <span class="red">Play</span> The Video
+    </h1>
+    <video class="rick" width="1080px" height="610px" controls >
+        <source src="nggyunglyd.mp4" type="video/mp4">
+        <source src="nggyunglyd.webm" type="video/webm">
+        Your Browser Cannot Play This Video Due To Unsupported Format
+    </video>
+</body>
+</html>
